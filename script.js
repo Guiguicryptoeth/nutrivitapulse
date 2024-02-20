@@ -54,6 +54,16 @@ function getProducts(country, gender) {
                             name: 'Clinical beauty', 
                             url: 'https://sscodtrk.com/track/U3VtRg/U0Fwbw?source=tiktok&aff_sub=greece&aff_sub2=male',
                             img: 'images/clinicalbeautyLogo.png'
+                         },
+                         {
+                            name: 'Herpigo', 
+                            url: 'https://sscodtrk.com/track/U0FrZA/U0Fwbw?source=tiktok&aff_sub=greece&aff_sub2=male',
+                            img: 'images/herpigoLogo.png'
+                         },
+                         {
+                            name: 'Thunder of Zeus', 
+                            url: 'https://sscodtrk.com/track/U3V2Vw/U0Fwbw?source=tiktok&aff_sub=greece&aff_sub2=male',
+                            img: 'images/thunderofzeusLogo.png'
                          }
                     ],
                     'female': [
@@ -71,6 +81,11 @@ function getProducts(country, gender) {
                             name: 'Alphacream', 
                             url: 'https://sscodtrk.com/visit/U0FTQw/U0Fwbw?p=U3VrPQ&source=tiktok&aff_sub=greece&aff_sub2=woman',
                             img: 'images/alphacreamLogo.png'
+                        },
+                        {
+                            name: 'Herpigo', 
+                            url: 'https://sscodtrk.com/track/U0FrZQ/U0Fwbw?source=tiktok&aff_sub=greece&aff_sub2=woman',
+                            img: 'images/herpigoLogo.png'
                         }
                     ]
                 },
@@ -85,6 +100,16 @@ function getProducts(country, gender) {
                             name: 'Clinical beauty', 
                             url: 'https://sscodtrk.com/track/U3VtQw/U0Fwbw?source=tiktok&aff_sub=cyprus&aff_sub2=male',
                             img: 'images/clinicalbeautyLogo.png'
+                        },
+                        {
+                            name: 'Herpigo', 
+                            url: 'https://sscodtrk.com/track/U3Urdw/U0Fwbw?source=tiktok&aff_sub=cyprus&aff_sub2=male',
+                            img: 'images/herpigoLogo.png'
+                        },
+                        {
+                            name: 'Thunder of Zeus', 
+                            url: 'https://sscodtrk.com/track/U3VwQg/U0Fwbw?source=tiktok&aff_sub=cyprus&aff_sub2=male',
+                            img: 'images/thunderofzeusLogo.png'
                         }
                     ],
                     'female': [
@@ -102,6 +127,11 @@ function getProducts(country, gender) {
                             name: 'Alphacream', 
                             url: 'https://sscodtrk.com/visit/U3V6cg/U0Fwbw?p=U0FRPQ&source=tiktok&aff_sub=cyprus&aff_sub2=woman',
                             img: 'images/alphacreamLogo.png'
+                        },
+                        {
+                            name: 'Herpigo', 
+                            url: 'https://sscodtrk.com/track/U0E3Rw/U0Fwbw?source=tiktok&aff_sub=cyprus&aff_sub2=woman',
+                            img: 'images/herpigoLogo.png.png'
                         }
                     ]
                 }
