@@ -1,0 +1,191 @@
+
+        .button {
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        .flag {
+            margin-right: 10px; /* Adjust spacing between image and text */
+            margin-left: 20px; /* Remove left margin if any */
+            border-radius: 30px;
+        }
+
+        .logo {
+            margin-right: 10px; /* Adjust spacing between image and text */
+            margin-left: 20px; /* Remove left margin if any */
+        }
+
+        .product-img {
+            height: 50px; 
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .greece-button { 
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center items vertically */
+            justify-content: flex-start; /* Start aligning items from the left */
+            background-color: #3498db;
+            border: none;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            font-size: 32px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        
+        .cyprus-button { 
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center items vertically */
+            justify-content: flex-start; /* Start aligning items from the left */
+            background-color: #3498db;
+            border: none;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            font-size: 32px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        
+        .product-button {
+            background-color: #3498db; /* Example background color */
+            color: white; /* Text color */
+            /* Further customize as needed */
+        }
+
+        .female-button { 
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center items vertically */
+            justify-content: flex-start; /* Start aligning items from the left */
+            background-color: #ff0000;
+            border: none;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            font-size: 32px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        
+        .male-button { 
+            display: flex; 
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #9cd7ff;
+            border: none;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            font-size: 32px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        
+        .back-button { 
+            background-color: #555555; 
+            border: none;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            display: block;
+            font-size: 32px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .optiloss-button { 
+            background-color: #FFD700; 
+            border: none;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            display: block;
+            font-size: 32px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        
+        .clinical-beauty-button { 
+            background-color: #FF69B4; 
+            border: none;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            display: block;
+            font-size: 32px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        
+
+        .alphacream-button { 
+            background-color: #ADD8E6; 
+            border: none;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            display: block;
+            font-size: 32px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .container {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #button-container { display: flex; }
+    

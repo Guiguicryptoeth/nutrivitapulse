@@ -2,181 +2,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <title>Product Selection with Custom Styles</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        .button {
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 12px;
-        }
-
-        .greece-button { 
-            background-color: #3498db;
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 30px;
-            margin-bottom: 20px;
-            display: block;
-            font-size: 32px;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: relative;
-
-        }    
-        
-        .cyprus-button { 
-            
-            background-color: #008CBA; 
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 30px;
-            margin-bottom: 20px;
-            display: block;
-            font-size: 32px;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-        
-        .female-button { 
-            background-color: #f44336; 
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 30px;
-            margin-bottom: 20px;
-            display: block;
-            font-size: 32px;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-        
-        .male-button { 
-            background-color: #e7e7e7; color: black; 
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 30px;
-            margin-bottom: 20px;
-            display: block;
-            font-size: 32px;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-        
-        .back-button { 
-            background-color: #555555; 
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 30px;
-            margin-bottom: 20px;
-            display: block;
-            font-size: 32px;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-
-        /* Example custom styles for product buttons */
-        .optiloss-button { 
-            background-color: #FFD700; 
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 30px;
-            margin-bottom: 20px;
-            display: block;
-            font-size: 32px;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-        
-        .clinical-beauty-button { 
-            background-color: #FF69B4; 
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 30px;
-            margin-bottom: 20px;
-            display: block;
-            font-size: 32px;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-        
-        .alphacream-button { 
-            background-color: #ADD8E6; 
-            border: none;
-            color: white;
-            padding: 20px 40px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border-radius: 30px;
-            margin-bottom: 20px;
-            display: block;
-            font-size: 32px;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-
-        .container {
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        #button-container { display: flex; }
-    </style>
+    
 </head>
 <body>
 
 <div id="button-container" class="container">
-    <button class="button greece-button" onclick="selectCountry('greece')">Greece</button>
-    <button class="button cyprus-button" onclick="selectCountry('cyprus')">Cyprus</button>
+    <button class="button greece-button" onclick="selectCountry('greece')">Greece
+        <img class="flag" src="images/greeceFlag.png" width="50" height="50">
+    </button>
+    <button class="button cyprus-button" onclick="selectCountry('cyprus')">Cyprus
+        <img class="flag" src="images/cyprusFlag.png" width="50" height="50">
+    </button>
 </div>
 
 <div id="genderSelection" class="container">
-    <button class="button female-button" onclick="selectGender('female')">Female</button>
-    <button class="button male-button" onclick="selectGender('male')">Male</button>
+    <button class="button female-button" onclick="selectGender('female')">Female
+        <img class="logo" src="images/femaleLogo.png" width="50" height="50">
+    </button>
+    <button class="button male-button" onclick="selectGender('male')">Male
+        <img class="logo" src="images/maleLogo.png" width="50" height="50">
+    </button>
     <button class="button back-button" onclick="goBackFromGender()">Back</button>
 </div>
 
@@ -184,76 +33,6 @@
     <!-- Product buttons will be added here dynamically -->
 </div>
 
-<script>
-let currentCountry = '';
-let currentGender = '';
-
-function selectCountry(country) {
-    currentCountry = country;
-    document.getElementById('button-container').style.display = 'none';
-    document.getElementById('genderSelection').style.display = 'flex';
-}
-
-function selectGender(gender) {
-    currentGender = gender;
-    document.getElementById('genderSelection').style.display = 'none';
-    const productsContainer = document.getElementById('productSelection');
-    productsContainer.innerHTML = ''; // Clear previous buttons if any
-    const products = getProducts(currentCountry, currentGender);
-    products.forEach(product => {
-        const productButton = document.createElement('button');
-        productButton.innerText = product.name;
-        const buttonClass = product.name.toLowerCase().replace(/\s+/g, '-') + '-button';
-        productButton.className = `button product-button ${buttonClass}`; // Apply unique class for each product
-        productButton.onclick = function() { window.location.href = product.url; };
-        productsContainer.appendChild(productButton);
-    });
-    const backButton = document.createElement('button');
-    backButton.innerText = 'Back';
-    backButton.className = 'button back-button';
-    backButton.onclick = function() { goBackFromProducts(); };
-    productsContainer.appendChild(backButton);
-    productsContainer.style.display = 'flex';
-}
-
-function goBackFromGender() {
-    document.getElementById('genderSelection').style.display = 'none';
-    document.getElementById('button-container').style.display = 'flex';
-}
-
-function goBackFromProducts() {
-    document.getElementById('productSelection').style.display = 'none';
-    document.getElementById('genderSelection').style.display = 'flex';
-}
-
-function getProducts(country, gender) {
-    const productMappings = {
-        'greece': {
-                    'male': [
-                        { name: 'Alphacream', url: 'https://sscodtrk.com/visit/U3VoaA/U0Fwbw?p=U3VrPQ&source=tiktok&aff_sub=greece&aff_sub2=male' },
-                        { name: 'Clinical beauty', url: 'https://sscodtrk.com/track/U3VtRg/U0Fwbw?source=tiktok&aff_sub=greece&aff_sub2=male' }
-                    ],
-                    'female': [
-                        { name: 'Clinical Beauty', url: 'https://sscodtrk.com/track/U3VtRw/U0Fwbw?source=tiktok&aff_sub=greece&aff_sub2=woman' },
-                        { name: 'Optiloss', url: 'https://sscodtrk.com/visit/U3V6ag/U0Fwbw?p=UlE9PQ&source=tiktok&aff_sub=greece&aff_sub2=woman' },
-                        { name: 'Alphacream', url: 'https://sscodtrk.com/visit/U0FTQw/U0Fwbw?p=U3VrPQ&source=tiktok&aff_sub=greece&aff_sub2=woman' }
-                    ]
-                },
-                'cyprus': {
-                    'male': [
-                        { name: 'Alphacream', url: 'https://sscodtrk.com/visit/U0FVZQ/U0Fwbw?p=U0FRPQ&source=tiktok&aff_sub=cyprus&aff_sub2=male' },
-                        { name: 'Clinical beauty', url: 'https://sscodtrk.com/track/U3VtQw/U0Fwbw?source=tiktok&aff_sub=cyprus&aff_sub2=male' }
-                    ],
-                    'female': [
-                        { name: 'Clinical Beauty', url: 'https://sscodtrk.com/track/U3VwQw/U0Fwbw?source=tiktok&aff_sub=cyprus&aff_sub2=woman' },
-                        { name: 'Optiloss', url: 'https://sscodtrk.com/visit/U0Fwag/U0Fwbw?p=U0FvPQ&source=tiktok&aff_sub=cyprus&aff_sub2=woman' },
-                        { name: 'Alphacream', url: 'https://sscodtrk.com/visit/U3V6cg/U0Fwbw?p=U0FRPQ&source=tiktok&aff_sub=cyprus&aff_sub2=woman' }
-                    ]
-                }
-            };
-    return productMappings[country][gender];
-}
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
